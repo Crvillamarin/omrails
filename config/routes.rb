@@ -1,5 +1,8 @@
 Omrails::Application.routes.draw do
   get 'about' => 'pages#about'
+  get 'login' => 'pages#login'
+  get 'signup'=> 'pages#signup'
+  
 
    root :to => 'pages#home'
 

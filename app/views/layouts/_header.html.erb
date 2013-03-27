@@ -11,17 +11,18 @@
       </a>
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">One  rails</a>
+      <a class="brand" href="#">Explore</a>
  
       <!-- Everything you want hidden at940px or less, place within here -->
       <div class="nav-collapse collapse">
       		<ul class="nav">
-                        <li> <%= link_to 'Home',  root_path %></li>
-                        <li> <%= link_to 'About',  about_path %> </li>
+                        <li> <%= link_to 'Addios',  root_path %></li>
+                        <li><%= link_to 'Login',  login_path %></li>
+                        <li> <%= link_to 'sign up',  signup_path %></li>
                     </ul>
                     <ul class="nav pull-right">
-                                <li><%= link_to 'Login',  '#' %></li>
-                    </ul>
+                       <input type="text" class="search-query" placeholder="Search">
+                     </ul>
                 </div>
         </div>
     </div>
