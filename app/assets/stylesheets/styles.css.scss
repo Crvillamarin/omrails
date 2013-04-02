@@ -170,17 +170,17 @@ text-align: center;
 }ner {
 
 
-	@include box-shadow (none !important);
-	border: 0;}*/
+  @include box-shadow (none !important);
+  border: 0;}*/
 /* to get rid of the shaddow of the top bar */
 
 
 
 .footer{
-	margin-top:50px;
-	color:gray light;
-	a {
+  margin-top:50px;
+  color:gray light;
+  a {
 
-		color: $red;
-	}
+    color: $red;
+  }
 }
