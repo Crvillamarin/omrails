@@ -42,7 +42,7 @@ before_filter :authenticate_user!, except: [:index]
   # POST /pins
   # POST /pins.json
   def create
-    @pin =current_user.pins.new (params[:pin])
+    @pin = current_user.pins.new(params[:pin])
 
     respond_to do |format|
       if @pin.save
