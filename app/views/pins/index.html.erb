@@ -3,19 +3,21 @@
 <table class="table table-striped">
   <thead>
   <tr>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-</thead>
-
+  	<thead>
+            <tr>
+                <th>Image</th>
+                <th>Description</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+   
 
 <tbody>
 <%= render @pins %>
 </tbody>
 </table>
-
 <br />
 
 <%= link_to 'New Pin', new_pin_path %>
